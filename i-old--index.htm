@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <meta name="description" content="Gabriel Guita - Web developer and web designer">
+    <title>Gabriel Guita - Web developer and web designer</title>
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../files/assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../files/assets/images/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../files/assets/images/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../files/assets/images/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../files/assets/images/ico/favicon.png">
+                                   
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	 <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- GOOGLE WEB FONTS -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function(){
+ 
+$('#submit').click(function(){
+ 
+$.post("mail.php", $("#contactForm").serialize(),  function(response) {
+$('#success').html(response);
+//$('#success').hide('slow');
+});
+return false;
+ 
+});
+ 
+});
+</script>
+
+</head>
+<body style="">
+    <!-- NAVIGATION -->
+    <nav class="fixed-top" id="navigation" style="top: -42px; opacity: 0;">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 center">
+                    <!-- LOGO -->
+                    <a class="brand pull-left" href="files/ - One Page Responsive Theme - .htm">
+                        GabrielGuita
+                    </a>
+                    <!-- END LOGO -->
+
+                    <!-- MOBILE MENU BUTTON -->
+                    <div class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <!-- END MOBILE MENU BUTTON -->
+                    
+                    <!-- MAIN MENU -->
+                    <ul id="main-menu" class="nav-collapse collapse">
+                        <li class="active"><a href="../files/#page-welcome">Home</a></li>
+                        <li class=""><a href="../files/#page-work">Work</a></li>
+<!--                        <li class=""><a href="../files/#page-features">Features</a></li>-->
+                        <li class=""><a href="../files/#page-about">About</a></li>
+<!--                        <li class=""><a href="../files/#page-blog">Blog</a></li>-->
+                        <li class=""><a href="../files/#page-contact">Contact</a></li>
+                    </ul>
+                    <!-- END MAIN MENU -->
+                    
+                    <!-- SOCIAL ICONS -->
+                    <div class="social-icons hover-big pull-right">
+                            <a href="https://www.facebook.com/pages/Gabrielguita/633381130089612" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
+                            <a href="https://twitter.com/ionutgg" class="sicon-twitter" target="_blank"><i>Twitter</i></a>
+                            <a href="https://www.linkedin.com/in/ionutgg" class="sicon-linkedin" target="_blank"><i>LinkedIn</i></a>
+                            <a href="http://www.pinterest.com/ionutgg/" class="sicon-pinterest" target="_blank"><i>Pinterest</i></a>
+                    </div>
+                    <!-- END SOCIAL ICONS -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVIGATION -->
+    
+    <!-- PAGE | WELCOME -->
+    <div class="pages white paralax page-welcome" id="page-welcome" style="background-position: 0% 0px;">
+        <div class="overlay"></div>
+        <!-- Centralized content -->
+        <div class="centralized" style="margin-top: -222.5px; margin-left: -615px; visibility: visible; opacity: 1;">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12 center">
+                        <!-- Animated logo -->
+                        <div class="logo">
+
+                        </div>
+                        
+                        <div class="line-divider" id="welcome-messages">
+                            <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 96px;"><ul class="slides" style="width: auto; position: relative; top: -192px;"><li style="float: none; list-style: none; position: relative; width: 1230px;" class="bx-clone">
+                                    <h1>Hi there!</h1>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 1230px;">
+                                    <h1>Web Developer</h1>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 1230px;">
+                                    <h1>Gabriel Guita</h1>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 1230px;">
+                                    <h1>Web Designer</h1>
+                                </li>
+                            <li style="float: none; list-style: none; position: relative; width: 1230px;" class="bx-clone">
+                                    <h1>Gabriel Guita</h1>
+                                </li></ul></div></div>
+                        </div>
+                        <p>Web developer &amp; Web designer.</p>
+                        <div class="social-icons sicon-white bordered">
+                            <a href="https://www.facebook.com/pages/Gabrielguita/633381130089612" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
+                            <a href="https://twitter.com/ionutgg" class="sicon-twitter" target="_blank"><i>Twitter</i></a>
+                            <a href="https://www.linkedin.com/in/ionutgg" class="sicon-linkedin" target="_blank"><i>LinkedIn</i></a>
+                            <a href="http://www.pinterest.com/ionutgg/" class="sicon-pinterest" target="_blank"><i>Pinterest</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PAGE | Welcome -->
+   
+    <!-- PAGE | WORK -->
+    <div class="pages page-work" id="page-work">
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <h4 class="line-divider">Work</h4>
+                <h1>Portfolio</h1>
+                <!-- Short desciption about Work in general -->
+                <div class="row">
+                    <div class="span8 offset2">
+                        <p>
+                            My specialty is web design and front-end development, working on pixel tricks in Photoshop and Adobe Illustrator and turning them into beautiful, semantic HTML & CSS. I have solid experience with CMS and frameworks like Wordpress, Magento, CS-Cart, Joomla and Twitter Bootstrap, jQuery.
+                        </p>
+                    </div>
+                </div>
+                <!-- Sub menu -->
+                <nav class="submenu">
+                    <ul>
+                        <li>
+                            <a href="../files/#" class="plugin-filter active" data-filter="all">All</a>
+                        </li>
+                        <li>
+                            <a href="../files/#" class="plugin-filter" data-filter="typography">Web design</a>
+                        </li>
+                        <li>
+                            <a href="../files/#" class="plugin-filter" data-filter="illustration">Web development</a>
+                        </li>
+<!--
+                        <li>
+                            <a href="../files/#" class="plugin-filter" data-filter="branding">Newsletters</a>
+                        </li>
+-->
+                        <li>
+                            <a href="../files/#" class="plugin-filter" data-filter="responsive">Responsive Web design</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- End Header -->
+                
+            <!-- Article -->
+            <article>
+                <ul class="thumbnails plugin-filter-elements portfolio-items">
+                    <li class="span4 mix responsive branding mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <!-- Portfolio image -->
+                            <img src="img/small/blog-walmart-small.png" alt="" />
+                            
+                            <!-- Portfolio name, activated on hover -->
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>Java</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html5/Css3</li>                                    
+                                </ul>                                
+                                <h4>Walmart</h4>
+                            </div>     
+                        </a>
+                    </li>
+                    <li class="span4 mix branding typography illustration mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/holosfind.com.png" alt="">
+                            <div class="portfolio-overlay">
+                                <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>
+                                <h4>Holosfind</h4>
+                            </div>
+                         </a>
+                    </li>
+                    <li class="span4 mix illustration mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_holosfindmobile_fr.png" alt="">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>                                
+                                <h4>Holosfind Mobile</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="span4 mix mix_all" style="  display: inline-block; opacity: 1;">    
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_planetahamham_ro.png" alt="" style="height: 300px;">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>                                
+                                <h4>Planeta Ham Ham</h4>
+                            </div>
+                        </a>    
+                    </li>
+                    <li class="span4 mix typography branding mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_rothelec_fr.png" alt="">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>                                
+                                <h4>A Brighter Horizon</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="span4 mix mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_photomaton_fr.png" alt="">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>                                
+                                <h4>Photomaton</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="span4 mix illustration branding typography mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_serrurier-serrureries_fr.png" alt="" style="height: 300px;">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>
+                                <h4>Serrurier serrureries</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="span4 mix  illustration mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/www_chalet-cpl_com.png" alt="">
+                            <div class="portfolio-overlay">
+                               <ul>
+                                    <li>Technologies used:</li>
+                                    <li>PHP</li>
+                                    <li>MySql</li>
+                                    <li>Javascript</li>
+                                    <li>Html/Css</li>                                    
+                                </ul>
+                                <h4>Chalet cpl</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="span4 mix responsive mix_all" style="  display: inline-block; opacity: 1;">
+                        <a href="#" data-destination="portfolio-items" data-insert="before">
+                            <img src="img/small/vetfolio-home-small.png" alt="">
+                            <div class="portfolio-overlay">                                 
+                                <ul>
+                                    <li>Technologies used:</li>
+                                    <li>Java</li>
+                                    <li>Mysql</li>
+                                    <li>Javascript</li>
+                                    <li>Html5/Css3</li>                                    
+                                </ul>
+                                <h4>Vetfolio</h4>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <!-- End Article -->            
+        </div>
+    </div>
+    <!-- END PAGE | WORK -->
+
+    <!-- PAGE | ABOUT -->
+    <div class="pages page-about" id="page-about">
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <h4 class="line-divider">About</h4>
+                <h1>Meet Me</h1>
+                <div class="row">
+                    <div class="span8 offset2">
+                        <p>
+                           I've worked through all sorts of jobs and titles in the IT industry until I finally realised that I'm way too interested in the technical part of the online process, and calling myself a “nerd” sounded more like a compliment than an insult.
+
+I started my professional career as a IT Tester at a Software company 6 years ago, which was followed by a role as a Web Project Manager. Although talking big marketing words and clichés is not my favourite bit, it was still pretty cool because this experience helped me to learn how to deal with clients and stakeholders, and gain knowledge of how important it is to understand your client’s needs in order to achieve the final “wow” effect. However, it soon became apparent that I really enjoyed spending time with the designers and developers and understanding how they do their magic. I started trying it myself and I naturally gravitated to web design and development.
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+            
+            <!-- Article -->
+            <article>
+                <!-- List of people and description with their contact details which are visable on hover -->
+                <ul class="thumbnails about-items">
+                    <li class="span4 center">
+                         <div class="item">
+                           <!--empty-->
+                        </div> 
+                    </li>
+                    <li class="span4 center">
+<!--
+                        <div class="item">
+                            <img class="img-square" src="files/team02.jpg" alt="">
+                            <div class="about-overlay img-square">
+                                <div class="social-icons sicon-white">
+                                    <a href="https://www.facebook.com/pages/Gabrielguita/633381130089612" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
+                                    <a href="https://twitter.com/ionutgg" class="sicon-twitter" target="_blank"><i>Twitter</i></a>
+                                    <a href="https://www.linkedin.com/in/ionutgg" class="sicon-linkedin" target="_blank"><i>LinkedIn</i></a>
+                                    <a href="http://www.pinterest.com/ionutgg/" class="sicon-pinterest" target="_blank"><i>Pinterest</i></a>
+                                </div>
+                            </div>
+                        </div>                        
+-->
+                        <h5>
+                            Gabriel Guita<br>
+                            <small>Web Developer and Web designer</small>
+                        </h5>
+                        <p class="smallFontBy08">If you can dream it, you can do it.<br />
+                            <small>- Walt Disney -</small></p>
+                    </li>
+                    <li class="span4 center">
+                        <div class="item">
+                          <!--empty-->
+                        </div> 
+                    </li>
+                    <li class="span4 center">
+                        <div class="item">
+                           <!--empty-->
+                        </div> 
+                    </li>     
+                </ul>
+            </article>
+            <!-- End Article -->
+        </div>
+    </div>
+    <!-- END PAGE | ABOUT -->
+    
+    <!-- PAGE | CONTACT -->
+    <div class="pages black-bg white page-contact" id="page-contact">
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <h4 class="line-divider">Contact</h4>
+                <h1>Say hello!</h1>
+                <div class="row">
+                    <div class="span8 offset2">
+                        <p>
+                            I like to create things with fun, open-minded people. Feel free to say hello! I'll respond as soon as possible.
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+            
+            <!-- Start Article -->
+            <article>
+                <div class="row-fluid">
+                    <!-- Contact form -->
+                    <div class="span6">
+                        <h5>Drop Me A Line</h5>
+                        <form action="" method="post" id="contactForm">
+                            <input id="name" name="name" type="text" class="span12" placeholder="Title" required="required">
+                            <input id="email" name="email" type="email" class="span12" placeholder="Email" required="required">
+                            <textarea id="message" name="message" rows="10" class="span12" required="required"></textarea>
+                            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+							<div id="success" style="color: red;"></div>
+                        </form>
+
+                    </div>
+                    <!-- End Contact form -->
+                    <!-- Contact information -->
+                    <div class="span5 offset1">
+                        <h5>Meet Me</h5>                         
+                        <div class="media">
+                            <div class="social-icons sicon-white pull-left">
+                                <a href="../files/#" class="sicon-place"><i>Location</i></a>
+                            </div> 
+                            <div class="media-body smallFontBy08">
+                                Dublin, Ireland
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="social-icons sicon-white pull-left">
+                                <a href="../files/#" class="sicon-mail"><i>email</i></a>
+                            </div> 
+                            <div class="media-body smallFontBy08">
+                                hello@gabrielguita.com
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="social-icons sicon-white pull-left">
+                                <a href="../files/#" class="sicon-clock"><i>Time zone</i></a>
+                            </div> 
+                            <div class="media-body smallFontBy08">
+                                UTC / GMT 0
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <h5>Get social</h5>
+                        <div class="social-icons sicon-white bordered">
+                            <a href="https://www.facebook.com/pages/Gabrielguita/633381130089612" class="sicon-facebook" target="_blank"><i>Facebook</i></a>
+                            <a href="https://twitter.com/ionutgg" class="sicon-twitter" target="_blank"><i>Twitter</i></a>
+                            <a href="https://www.linkedin.com/in/ionutgg" class="sicon-linkedin" target="_blank"><i>LinkedIn</i></a>
+                            <a href="http://www.pinterest.com/ionutgg/" class="sicon-pinterest" target="_blank"><i>Pinterest</i></a>
+                        </div>
+                    </div>
+                    <!-- End Contact information -->
+                </div>
+            </article>
+            <!-- End Article -->            
+        </div>
+        
+        <!-- Background map image -->
+        <div id="map-image">
+            <img src="files/map_bck.jpg" alt="">
+        </div>
+    </div>
+    <!-- END PAGE | CONTACT -->
+<!--
+    <div class="social-div">    
+        <a href="#" title="" class="pull-right">Download my CV</a>
+    </div>
+-->
+    
+    <!-- JQUERY -->
+	<!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>    
+    
+    <!-- TWITTER BOOTSTRAP -->
+				<!-- <script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/bootstrap/html5shiv.js"></script>
+    <![endif]-->
+    
+    
+    <!-- PLUGINS -->
+    <script src="js/jquery.bxslider.js" type="text/javascript"></script>
+    <script src="js/jquery.centralized.js" type="text/javascript"></script>
+    <script src="js/jquery.fixedonlater.js" type="text/javascript"></script>
+    <script src="js/jquery.hashloader.js" type="text/javascript"></script>
+    <script src="js/jquery.mixitup.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.responsivevideos.js" type="text/javascript"></script>
+    <script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+    <script src="js/jquery.tweet.js" type="text/javascript"></script>
+    <script src="js/jquery.tweetCarousel.js" type="text/javascript"></script>
+        
+    
+    <!-- INITIALIZE -->
+    <script src="js/application.js" type="text/javascript"></script>    
+    
+    <!-- GOOGLE ANALYTICS -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50528219-1', 'gabrielguita.com');
+      ga('send', 'pageview');
+</script>
+    </body>
+</html>

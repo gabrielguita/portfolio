@@ -1,0 +1,214 @@
+.body, a, h1, h2, h3, li, p {
+    font-family: 'Droid Sans', sans-serif;
+}
+body{
+	background-color: #f7f7f7;
+	padding: 0px;
+	margin: 0px;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.container {
+    margin: 0 auto;
+}
+.container header {
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+}
+.container header img.logo{
+	width: 200px !important;
+	height: auto;
+}
+.container .main-nav{
+width: 100%;
+background: #000;
+height: 100%;
+display: inline-block;
+}
+.container .menu-links{
+	margin-top: 0px;
+	background-color: #000;
+margin-bottom: 0px;
+padding: 0px;
+width: 90%;
+margin: 0 auto;
+
+}
+
+.container .menu-links li{
+	list-style: none;
+	padding: 5px 8px;
+	float: left;
+	width: auto;
+}
+.container header .menu .top{padding: 0px; display: inline; float: left; width: 100%;}
+.container header .menu{
+	float: right;
+}
+.container header .menu .top li{
+	list-style: none;
+	margin-right: 10px;
+	float: right;
+	width: auto;
+}
+.container header .menu .top li a{
+	font-size: 12px;
+color: #555;
+text-decoration: none;
+}
+.container header .menu .det{padding: 0px; display: inline; float: left; width: 100%;}
+.container header .menu .det li{
+	list-style: none;
+	margin-right: 10px;
+	float: right;
+	width: auto;
+}
+.container header .menu .det li a{
+	font-size: 12px;
+color: #555;
+text-decoration: none;
+}
+
+
+.container .menu-links li a{color:#fff; text-decoration: none; font-size: 14px;}
+.container .menu-links li a:hover{color:#555; text-decoration: underline;}
+.container header div p {
+    color: #ccc;
+}
+.container .content {
+    width: 90%;
+    margin: 0 auto;
+}
+.container .kommune {
+    margin-left: 40px;
+    float: left;
+}
+.content .left h2 {
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content .left {
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+.content .searchbar {
+    background-color: #eeece0;
+    border: 1px solid #687c97;
+    font-weight: 700;
+    padding: 7px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.content .right {
+    width: 60%;
+    float: right;
+    margin-top: 45px;
+}
+.results {
+    padding: 0;
+}
+.content .right .searchbar {
+    background-color: transparent;
+}
+.results li {
+    list-style: none;
+    font-weight: 700;
+    border: 1px solid #687c97;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+.results li .reg {
+    font-weight: 400;
+}
+.content .right .rss-links {
+    float: right;
+    margin-top: 20px;
+}
+.content .right .rss-links a {
+    color: #676d79;
+    font-size: 13px;
+    text-decoration: none;
+}
+.content .right .rss-links a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+.content .right .rss-links a img {
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+.content .right .stat-details {
+    width: 100%;
+    float: left;
+}
+.content .stat {
+    margin-bottom: 30px;
+}
+.content .right .stat-details img {
+    float: left;
+}
+.content .right .stat-details .info-box {
+    border: 1px solid #687c97;
+    padding: 10px;
+    float: right;
+}
+.content .right .stat-details .info-box h2 {
+    margin: 0;
+    font-size: 13px;
+}
+.content .right .stat-details .info-box ul {
+    padding: 0;
+}
+.content .right .stat-details .info-box ul li:before {
+    content: "• ";
+    color: #8599e2;
+}
+.content .right .stat-details .info-box ul li {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.content .right .stat-details .info-box ul li a {
+    color: #8599e2;
+}
+.content .right .stat-details .info-box ul li a:hover {
+    color: #354FAB;
+}
+
+.lead img{
+	max-width: 100%;
+}
+
+footer{
+	border-top: solid 10px #ff6100;
+}
+@media screen and (max-width: 40em) {
+	body
+	{
+		background-color: #f7f7f7;
+	}
+	.container .menu-links{
+		padding:0px;
+		margin-top: 0;
+		width:100%;
+margin: 0 auto;
+	}
+	.menu-links li{width:100%!important;}
+	.lead img {
+max-width: 100%!important;
+min-height: 120px!important;
+}
+.container .main-nav{
+	height: auto;
+float: left;
+overflow-x: hidden;
+}
+
+}

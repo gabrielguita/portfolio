@@ -1,0 +1,14 @@
+Fonts actively used in this project
+-----------------------------------
+
+
+Font name       :   PT Sans
+Font provider   :   google
+
+******************************************************************************
+
+
+
+
+
+Created by Typecast on 2014/10/27.
